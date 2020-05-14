@@ -1,10 +1,10 @@
 package cn.controller;
 
 import cn.api.config.UserRemoteClient;
+import cn.api.entity.UserDTO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.client.loadbalancer.LoadBalancerClient;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.web.client.RestTemplate;
 
 @RestController
@@ -19,6 +19,12 @@ public class ArticleController {
     @GetMapping("/callHello")
     public String callHello(){
         return userRemoteClient.hello();
+//                restTemplate.getForObject("http://eureka-client8088/hello",String.class);
+    }
+
+    @PostMapping("/callUser")
+    public UserDTO callUser(@RequestBody UserDTO userDTO){
+        return userRemoteClient.callUser(userDTO);
 //                restTemplate.getForObject("http://eureka-client8088/hello",String.class);
     }
     @GetMapping("/choose")
