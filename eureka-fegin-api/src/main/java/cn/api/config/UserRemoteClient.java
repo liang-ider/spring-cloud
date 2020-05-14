@@ -7,4 +7,6 @@ import org.springframework.web.bind.annotation.GetMapping;
 public interface UserRemoteClient {
     @GetMapping("/hello")
     public String hello();
+    @GetMapping("/hello2")
+    public String hello2();
 }
