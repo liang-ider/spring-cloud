@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: eureka-server-mast
+  security:
+    user:
+      name: admin
+      password: 123456
+  profiles:
+    active: master
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false

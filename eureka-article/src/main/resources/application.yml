@@ -1,0 +1,28 @@
+spring:
+  application:
+    name: eureka-article
+  security:
+    user:
+      name: admin
+      password: 123456
+server:
+  port: 8087
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8081/eureka/
+  #    register-with-eureka: false
+#    fetch-registry: false
+  instance:
+     preferIpAddress: true
+     instance:
+       instance-id: ${spring-application.name}:${spring.cloud.client.ip-address}:${server.prot}
+ribbon:
+  eager-load:
+    enabled: true
+    clients: eureka-client8086,eureka-client8088
+logging:
+  level:
+    cn:
+      config:
+        UserRemoteClient: DEBUG
