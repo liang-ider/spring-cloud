@@ -20,7 +20,7 @@ eureka:
 ribbon:
   eager-load:
     enabled: true
-    clients: eureka-client8086,eureka-client8088
+    clients: user-auth
 logging:
   level:
     cn:

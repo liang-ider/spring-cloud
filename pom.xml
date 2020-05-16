@@ -10,8 +10,8 @@
         <module>eureka-article</module>
         <module>eureka-server-master</module>
         <module>eureka-server-slaveOne</module>
-        <module>eureka-client-8088</module>
         <module>eureka-fegin-api</module>
+        <module>eureka-user-parte</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -26,6 +26,10 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-hystrix</artifactId>
         </dependency>
     </dependencies>
     <dependencyManagement>
