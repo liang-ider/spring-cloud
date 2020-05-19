@@ -16,7 +16,7 @@ eureka:
   instance:
      preferIpAddress: true
      instance:
-       instance-id: ${spring-application.name}:${spring.cloud.client.ip-address}:${server.prot}
+       instance-id: ${spring.application.name}:${spring.cloud.client.ip-address}:${server.port}
 ribbon:
   eager-load:
     enabled: true
@@ -26,3 +26,7 @@ logging:
     cn:
       config:
         UserRemoteClient: DEBUG
+zuul:
+  routes:
+    user-hello:
+      path: /user/**

@@ -13,6 +13,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>user-auth-api</module>
+        <module>user-hello-api</module>
     </modules>
     <dependencies>
         <dependency>

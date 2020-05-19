@@ -6,7 +6,6 @@
     <packaging>pom</packaging>
     <modules>
         <module>eureka-server</module>
-        <module>eureka-client</module>
         <module>eureka-article</module>
         <module>eureka-server-master</module>
         <module>eureka-server-slaveOne</module>

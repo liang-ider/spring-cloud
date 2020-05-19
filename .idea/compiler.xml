@@ -2,6 +2,7 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
@@ -13,9 +14,13 @@
         <module name="user-auth" />
         <module name="user-auth-api" />
         <module name="user-basic" />
+        <module name="user-hello-api" />
+        <module name="user-hello1" />
+        <module name="user-hello2" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="eureka-client" target="1.8" />
       <module name="eureka-client-8086" target="1.8" />
       <module name="eurekaclient8088" target="1.8" />
     </bytecodeTargetLevel>
@@ -35,6 +40,9 @@
       <module name="user-auth" options="-parameters" />
       <module name="user-auth-api" options="-parameters" />
       <module name="user-basic" options="-parameters" />
+      <module name="user-hello-api" options="-parameters" />
+      <module name="user-hello1" options="-parameters" />
+      <module name="user-hello2" options="-parameters" />
     </option>
   </component>
 </project>

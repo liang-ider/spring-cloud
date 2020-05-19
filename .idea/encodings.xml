@@ -4,15 +4,17 @@
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-article" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-client" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/eureka-client/eureka-client-8086" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-fegin-api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-fegin-api/user-auth-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-fegin-api/user-hello-api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-server-master" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-server-slaveOne" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-user-parte" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-user-parte/user-auth" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-user-parte/user-basic" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-user-parte/user-hello1" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-user-parte/user-hello2" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../eurekaserver/eureka-article" charset="UTF-8" />
   </component>
 </project>

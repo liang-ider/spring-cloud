@@ -14,6 +14,8 @@
     <modules>
         <module>user-auth</module>
         <module>user-basic</module>
+        <module>user-hello1</module>
+        <module>user-hello2</module>
     </modules>
     <dependencies>
         <dependency>
@@ -21,18 +23,9 @@
             <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
         </dependency>
         <dependency>
-            <groupId>mysql</groupId>
-            <artifactId>mysql-connector-java</artifactId>
-        </dependency>
-        <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
             <optional>true</optional>
-        </dependency>
-        <dependency>
-            <groupId>org.mybatis.spring.boot</groupId>
-            <artifactId>mybatis-spring-boot-starter</artifactId>
-            <version>2.1.1</version>
         </dependency>
     </dependencies>
     <build>
