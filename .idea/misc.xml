@@ -11,6 +11,10 @@
       <set>
         <option value="$PROJECT_DIR$/eureka-client/eureka-client-8086/pom.xml" />
         <option value="$PROJECT_DIR$/eureka-client/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-user-parte/user-auth/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-user-parte/user-basic/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-user-parte/user-hello1/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-user-parte/user-hello2/pom.xml" />
         <option value="$PROJECT_DIR$/eurrr/pom.xml" />
       </set>
     </option>

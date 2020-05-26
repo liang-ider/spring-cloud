@@ -9,7 +9,7 @@ import org.springframework.context.annotation.Configuration;
 
 import java.util.regex.Pattern;
 
-@Configuration
+//@Configuration
 public class SleuthConfig {
     @Bean(name = ServerSampler.NAME)
     public HttpSampler myHttpSampler(SkipPatternProvider patternProvider) {
